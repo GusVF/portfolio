@@ -38,13 +38,15 @@ body {
 }
 
 .Main {
-  padding-top: 15%;
   font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 14%;
 }
 
-.front-end {
-  margin-top: auto;
+.fade {
+  position: absolute;
+  margin-top: 200px;
 }
+
  /* fixes the last <p> and gives the glowing effect on the photo */
 
 .glowing-border {
@@ -66,21 +68,18 @@ body {
   }
 }
 
-.about-header{
+.path-header{
   text-decoration: underline black;
 }
 
-#about {
-  background-color: whitesmoke;
-  border: 2px solid black;
-  border-radius: 10px;
+#path {
   margin-top: 400px;
   padding: 20px;
-  width: 900px;
 }
 
-.field {
-  border: 2px solid whitesmoke;
+.message {
+  width: 800px;
+  min-height: 400px;
 }
 
 .project-header {
@@ -90,7 +89,7 @@ body {
 
 #projects {
   margin: 20px;
-  padding-top: 80px; 
+  padding-top: 60px; 
 }
 
 .image {
@@ -101,7 +100,14 @@ body {
 
 #contact {
   margin-top: 250px;
-  padding-bottom: 400px;
+  padding-bottom: 250px;
 }
 
+.footer-1 {
+   border-top: 2px solid whitesmoke;
+}
 
+.badge {
+  width: 50px;
+  height: 50px;
+}

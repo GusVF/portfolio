@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { TranslateContext } from '../context/TranslateContext';
 
 export default function DockerTodoCard() {
+  const { translate } = useContext(TranslateContext);
 
   const handleClick = () => {
     window.open("https://github.com/GusVF/luiz-ferreira-project-docker-todo-list", "_blank");
@@ -15,7 +17,7 @@ export default function DockerTodoCard() {
           is-flex-direction-column
           is-align-items-center">
         <p className="is-size-4">
-          Project
+        {translate? 'Project' : 'Projeto'}
         </p>
         <p className="is-size-4">"Docker todo"</p>
         <img className="image"
@@ -24,7 +26,7 @@ export default function DockerTodoCard() {
       <footer>
         <p className="card-footer-item">
           <span>
-            View repository:{" "}
+          {translate ? 'View Repository' : 'Veja o Repositorio'}:{" "}
             <a href="https://github.com/GusVF/luiz-ferreira-project-docker-todo-list"
             target="_blank" rel="noopener noreferrer">
               GitHub

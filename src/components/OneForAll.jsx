@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
 import { TranslateContext } from '../context/TranslateContext';
 
-export default function SolarSystemCard() {
+export default function OneForAll() {
   const {translate } = useContext(TranslateContext);
 
   const handleClick = () => {
-    window.open("https://github.com/GusVF/luiz-ferreira-project-solar-system","_blank");
+    window.open("https://github.com/GusVF/project-one-for-all", "_blank");
   };
 
   return (
@@ -18,15 +18,15 @@ export default function SolarSystemCard() {
           <p className="is-size-4">
           {translate? 'Project' : 'Projeto'}
           </p>
-          <p className="is-size-4">"Solar System"</p>
+          <p className="is-size-4">"One-for-all"</p>
           <img className="image"
-          src="https://img.freepik.com/free-vector/solar-system-background_1284-12725.jpg" alt="Solar system" />
+          src="https://emoji.slack-edge.com/TMDDFEPFU/sql/f250fd40ac960f24.png" alt="One for all" />
         </div>
         <footer>
           <p className="card-footer-item">
           <span>
           {translate ? 'View Repository' : 'Veja o Repositorio'}:{" "}
-            <a href="https://github.com/GusVF/luiz-ferreira-project-solar-system"
+            <a href="https://github.com/GusVF/project-one-for-all"
             target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
