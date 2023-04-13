@@ -5,7 +5,7 @@ export default function TrybeWalletCard() {
   const { translate } = useContext(TranslateContext);
 
   const handleClick = () => {
-    window.open("https://github.com/GusVF/luiz-ferreira-project-docker-todo-list", "_blank");
+    window.open("https://github.com/GusVF/luiz-ferreira-project-trybe-wallet", "_blank");
   };
 
   return (
