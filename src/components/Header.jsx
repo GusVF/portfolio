@@ -26,7 +26,7 @@ function Header() {
       <Link className="under-line has-text-light has-text-weight-semibold
       is-size-4" to="projects" smooth={true} offset={260} duration={1000}
       >
-        {translate ? 'Project' : 'Projetos'}</Link>
+        {translate ? 'Projects' : 'Projetos'}</Link>
 
       <Link className="under-line has-text-light has-text-weight-semibold
       is-size-4" to="contact" smooth={true} offset={-100} duration={1000}

@@ -48,12 +48,10 @@ function Home() {
       </div>
       <div className="mt-5">
       <h2 className="about-header is-size-4">{ translate ? 'About me...' : 'Sobre mim...'}</h2>
-      <p className="is-size-5">{ translate ? <>I live in Caraguatatuba, São Paulo, Brasil, and I am 46 years old. <br></br>I have been working with HTML, CSS, JavaScript, React, Redux, Context API, Bulma, and currently learning Docker, MySQL, Sequelizer and REST API.<br></br>I am constantly seeking to improve my skills and stay up-to-date with the latest in web development.<br></br> I beleive in resilience and hard work are key ingredients to create success in anything you want.<br></br>Thank you for considering me as a potential member of your team.'</> 
-
-      : <> Eu moro em Caraguatatuba, São Paulo, Brasil, e tenho 46 anos de idade. <br></br>
-      Tenho trabalhado com HTML , CSS, JavaScript, React, Redux, Context API, Bulma, e atualmente aprendendo Docker, MySQL, Sequelizer e REST API.<br></br> Estou constantemente procurando melhorar minhas habilidades e me manter atualizado com as novidades de web development.<br></br>
-      Acredito que resiliencia e trabalhado duro sao os ingredientes para criar qualquer coisa. <br></br>
-      Obrigado por me considerar como um potencial membro do seu time.</>}
+      <p className="is-size-5">{ translate ? <>I live in Caraguatatuba, São Paulo, Brasil and <br></br>I am a full-stack web developer constantly seeking to improve my skills<br></br> and stay up-to-date with the world of technology.<br></br> My beleive is that resilience and dedication are key ingredients to create success in anything you want.<br></br>This Portfolio will give you good information about what I have been up to<br></br> but please feel free to contact me with the links at the end of the page.'</> 
+      :
+       <> Eu moro em Caraguatatuba, São Paulo, Brasil.<br></br> Sou desenvolvedor full-stack e contantemente procurando melhorar minhas habilidades <br></br>para ficar em dia com o mundo da tecnologia.<br></br>
+      Acredito que resiliencia e dedicacão, são os ingredientes para conquistar qualquer coisa. <br></br>Este Portfolio tem bastante informação sobre mim mas por favor sinta-se livre para me<br></br> contatar pelos links no final da pagina.</>}
       </p>
     </div>
       </div>
