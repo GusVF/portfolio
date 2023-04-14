@@ -49,10 +49,10 @@ function Home() {
       <div className="mt-6">
       <h2 className="about-header is-size-4">{ translate ? 'Welcome to my Portfolio...' : 'Bem vindo ao meu Portfolio...'}</h2>
       <p className="is-size-5">{ translate ? <>I Currently live in Caraguatatuba, São Paulo, Brasil, I am a full-stack web developer looking for a company to join.<br></br>
-      This Portfolio will give you good information about what I have been up to but please<br></br> feel free to contact me in links at the end of the page.</> 
+      This Portfolio will give you good information about what I have been up to but please<br></br> feel free to contact me using the links at the end of the page.</> 
       :
-       <> Moro em Caraguatatuba, São Paulo, Brasil, e sou desenvolvedor full-stack procurando uma companhia para fazer parte.
-       <br></br>Este Portfolio tem bastante informação sobre mim mas por favor <br></br>sinta-se livre para me contatar pelos links no final da pagina.</>}
+       <> Moro em Caraguatatuba, São Paulo, Brasil, e sou desenvolvedor full-stack procurando uma empresa para fazer parte.
+       <br></br>Este Portfolio tem bastante informação sobre mim mas por favor <br></br>sinta-se livre para me contatar usando os links no final da pagina.</>}
       </p>
     </div>
       </div>
