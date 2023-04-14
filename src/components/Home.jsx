@@ -46,12 +46,13 @@ function Home() {
       <p>{translate ? 'My name is' : 'Meu nome  é'}</p>
       <p className="fade">{name}</p>
       </div>
-      <div className="mt-5">
-      <h2 className="about-header is-size-4">{ translate ? 'About me...' : 'Sobre mim...'}</h2>
-      <p className="is-size-5">{ translate ? <>I live in Caraguatatuba, São Paulo, Brasil and <br></br>I am a full-stack web developer constantly seeking to improve my skills<br></br> and stay up-to-date with the world of technology.<br></br> My beleive is that resilience and dedication are key ingredients to create success in anything you want.<br></br>This Portfolio will give you good information about what I have been up to<br></br> but please feel free to contact me with the links at the end of the page.'</> 
+      <div className="mt-6">
+      <h2 className="about-header is-size-4">{ translate ? 'Welcome to my Portfolio...' : 'Bem vindo ao meu Portfolio...'}</h2>
+      <p className="is-size-5">{ translate ? <>I Currently live in Caraguatatuba, São Paulo, Brasil, I am a full-stack web developer looking for a company to join.<br></br>
+      This Portfolio will give you good information about what I have been up to but please<br></br> feel free to contact me in links at the end of the page.</> 
       :
-       <> Eu moro em Caraguatatuba, São Paulo, Brasil.<br></br> Sou desenvolvedor full-stack e contantemente procurando melhorar minhas habilidades <br></br>para ficar em dia com o mundo da tecnologia.<br></br>
-      Acredito que resiliencia e dedicacão, são os ingredientes para conquistar qualquer coisa. <br></br>Este Portfolio tem bastante informação sobre mim mas por favor sinta-se livre para me<br></br> contatar pelos links no final da pagina.</>}
+       <> Moro em Caraguatatuba, São Paulo, Brasil, e sou desenvolvedor full-stack procurando uma companhia para fazer parte.
+       <br></br>Este Portfolio tem bastante informação sobre mim mas por favor <br></br>sinta-se livre para me contatar pelos links no final da pagina.</>}
       </p>
     </div>
       </div>

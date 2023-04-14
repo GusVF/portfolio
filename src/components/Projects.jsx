@@ -6,6 +6,8 @@ import OneForAll from "./OneForAll";
 import ReactTestCard from "./ReactTestCard";
 import SolarSystemCard from "./SolarSystemCard";
 import TrybeWalletCard from "./TrybeWalletCard";
+import StoreManager from "./StoreManageCard";
+import BlosAPI from "./BlogsAPICard";
 
 function Project() {
   const { translate } = useContext(TranslateContext);
@@ -30,6 +32,8 @@ function Project() {
       <DockerTodoCard />
       <AllForOne />
       <OneForAll />
+      <StoreManager />
+      <BlosAPI />
       </div>
     </div>
   );
