@@ -7,7 +7,7 @@ import ReactTestCard from "./ReactTestCard";
 import SolarSystemCard from "./SolarSystemCard";
 import TrybeWalletCard from "./TrybeWalletCard";
 import StoreManager from "./StoreManageCard";
-import BlosAPI from "./BlogsAPICard";
+import BlogsAPI from "./BlogsAPICard";
 import TrybeSmithCard from './TrybeSmithCard';
 import TrybersAndDragonsCard from './TrybersNDragonsCard';
 
@@ -35,7 +35,7 @@ function Project() {
       <AllForOne />
       <OneForAll />
       <StoreManager />
-      <BlosAPI />
+      <BlogsAPI />
       <TrybeSmithCard />
       <TrybersAndDragonsCard />
       </div>
