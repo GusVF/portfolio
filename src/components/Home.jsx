@@ -36,7 +36,7 @@ function Home() {
     is-flex-wrap-wrap
     is-justify-content-space-around"
     >
-      <img className="glowing-border" src={my_photo} alt="Gustavo Ferreira" />
+      <img className="glowing-border ml-6" src={my_photo} alt="Gustavo Ferreira" />
       <div className="is-flex
       is-flex-direction-column
       is-align-items-center

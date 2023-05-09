@@ -25,6 +25,8 @@ function Project() {
       className="has-text-white 
       is-flex
       is-flex-wrap-wrap
+      is-inline-flex
+      overflow-x-auto
       ">
       <SolarSystemCard />
       <TrybeWalletCard />
