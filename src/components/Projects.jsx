@@ -8,6 +8,8 @@ import SolarSystemCard from "./SolarSystemCard";
 import TrybeWalletCard from "./TrybeWalletCard";
 import StoreManager from "./StoreManageCard";
 import BlosAPI from "./BlogsAPICard";
+import TrybeSmithCard from './TrybeSmithCard';
+import TrybersAndDragonsCard from './TrybersNDragonsCard';
 
 function Project() {
   const { translate } = useContext(TranslateContext);
@@ -24,10 +26,8 @@ function Project() {
       <div id="projects"
       className="has-text-white 
       is-flex
-      is-flex-wrap-wrap
-      is-inline-flex
-      overflow-x-auto
-      ">
+      is-flex-wrap-wrap"
+      >
       <SolarSystemCard />
       <TrybeWalletCard />
       <ReactTestCard />
@@ -36,6 +36,8 @@ function Project() {
       <OneForAll />
       <StoreManager />
       <BlosAPI />
+      <TrybeSmithCard />
+      <TrybersAndDragonsCard />
       </div>
     </div>
   );
