@@ -10,6 +10,9 @@ import StoreManager from "./StoreManageCard";
 import BlogsAPI from "./BlogsAPICard";
 import TrybeSmithCard from './TrybeSmithCard';
 import TrybersAndDragonsCard from './TrybersNDragonsCard';
+import TrybeFutebolClube from './TrybeFutebolClube';
+import RestaurantOrders from './RestaurantOrders';
+import TrybeIsNotGoogle from './TING';
 
 function Project() {
   const { translate } = useContext(TranslateContext);
@@ -38,6 +41,9 @@ function Project() {
       <BlogsAPI />
       <TrybeSmithCard />
       <TrybersAndDragonsCard />
+      <TrybeFutebolClube />
+      <RestaurantOrders />
+      <TrybeIsNotGoogle />
       </div>
     </div>
   );

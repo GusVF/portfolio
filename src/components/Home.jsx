@@ -47,12 +47,16 @@ function Home() {
       <p className="fade">{name}</p>
       </div>
       <div className="mt-6">
-      <h2 className="about-header is-size-4">{ translate ? 'Welcome to my Portfolio...' : 'Bem vindo ao meu Portfolio...'}</h2>
-      <p className="is-size-5">{ translate ? <>I Currently live in Caraguatatuba, São Paulo, Brasil, I am a full-stack web developer looking for a company to join.<br></br>
-      This Portfolio will give you good information about what I have been up to but please<br></br> feel free to contact me using the links at the end of the page.</> 
+      <h2 className="about-header is-size-4">{translate ? 'Welcome to my Portfolio...' : 'Bem-vindo ao meu Portfolio...'}</h2>
+      <p className="is-size-5">{translate ? <>Currently residing in Caraguatatuba, São Paulo, Brazil.<br></br>
+      I am a full-stack web developer seeking to join a dynamic company.<br></br>
+      This Portfolio provides comprehensive information about my skills and professional journey.<br></br>
+      Feel free to reach out to me using the contact links at the end of this page.</>
       :
-       <> Moro em Caraguatatuba, São Paulo, Brasil, e sou desenvolvedor full-stack procurando uma empresa para fazer parte.
-       <br></br>Este Portfolio tem bastante informação sobre mim mas por favor <br></br>sinta-se livre para me contatar usando os links no final da pagina.</>}
+      <>Residindo atualmente em Caraguatatuba, São Paulo, Brasil.<br></br>
+      Sou um desenvolvedor full-stack em busca de oportunidades para fazer parte de uma empresa dinâmica.<br></br>
+      Este Portfolio apresenta informações abrangentes sobre minhas habilidades e trajetória profissional.<br></br>
+      Fique à vontade para entrar em contato comigo por meio dos links de contato no final desta página.</>}
       </p>
     </div>
       </div>

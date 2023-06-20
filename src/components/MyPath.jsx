@@ -14,12 +14,13 @@ function MyPath() {
       case 1995/2005:
         return (
           <p className="is-size-5">
-            { translate ? <> Since childhood I had a dream to move to the US and at 19 years old I made that dream come true moving to Orlando, Florida.<br></br>
-             Worked for 8 years in restaurants and learned a lot about team effort. In this time I got a student grant of 80%, and decided to go for computer science, but I ended up not going because of reasons beyond my reach.<br></br>
-             I was a great place to learn to work with clients where for them the theme was one of relaxing and enjoyment.</>  : <> Desde criança eu tinha um sonho de me mudar para os Estados Unidos e aos 19 anos realizei este sonho, indo morar em Orlando no estado da Florida.<br></br>
-            Trabalhei em restaurantes por 8 anos e aprendi muito sobre colaboração. Nessa época recebi uma bolsa de estudos de 80%, e escolhi Ciências da computação, porém não consegui cursar por motivos fora do meu alcance. <br></br>
-            Foi um aprendizado muito valioso aprender a trabalhar com clientes em um ambiente onde para o comsumidor o tema é lazer e descontração</>}
-           </p>
+{translate ? <>Ever since I was a child, I had a lifelong dream of moving to the United States. At the age of 19, I made that dream a reality by relocating to Orlando, Florida.<br></br>
+For 8 years, I worked in the restaurant industry, gaining valuable experience in teamwork and collaboration. During this time, I was fortunate to receive a student grant of 80%. I initially pursued a degree in computer science, but circumstances beyond my control prevented me from completing the program.<br></br>
+Working in the restaurant industry provided me with invaluable opportunities to interact with clients, where their experience revolved around relaxation and enjoyment.</> : 
+<>Desde a infância, sempre tive o sonho de morar nos Estados Unidos. Aos 19 anos, realizei esse sonho ao me mudar para Orlando, na Flórida.<br></br>
+Por 8 anos, trabalhei na indústria de restaurantes, adquirindo uma rica experiência em trabalho em equipe e colaboração. Durante esse período, tive a sorte de receber uma bolsa de estudos de 80%. Inicialmente, optei por cursar Ciência da Computação, mas circunstâncias alheias à minha vontade impediram a conclusão do curso.<br></br>
+Trabalhar no setor de restaurantes me proporcionou valiosas oportunidades de interação com clientes, em um ambiente focado no lazer e na diversão.</>}
+</p>
         );
       case 2005/2017:
         return (
@@ -32,27 +33,19 @@ function MyPath() {
       case 2017/2023:
         return (
           <p className="is-size-5">
-            { translate ? <>After 22 years living in the US, I decided to go back to Brazil to stay closer to family and consequently look for another profession.<br></br>
-            In this time  I magnaged the construciton of two homes with my own economies while I looked for the right direction to go professionally.<br></br>
-            In 2022 I found a programming school called <a href="https://www.betrybe.com/" 
-            target="_blank" rel="noopener noreferrer"> Trybe</a> that reignited my interest in technology.<br></br>
-            Trybe is a school with more then 1500 synchronous hours of sofware development, front-end, back-end, computer science, sofware engineering and agile methodologies as well as comportamental abilities.<br></br>
-            A profession that can better the day of other professions...<br></br>
-            I'm glad to be on this new path.</> : <> Depois de 22 anos morando nos Estados Unidos, decidi voltar ao Brasil para ficar mais perto da familia, e consequentemente a procura de uma nova profissão.<br></br>
-            Nesse tempo gerencei a construção de duas residências com minhas proprias economias enquanto pesquisava a direcão certa a se seguir profissionalmente.<br></br>
-            Em 2022 encontrei a escola <a href="https://www.betrybe.com/" 
-            target="_blank" rel="noopener noreferrer"> Trybe</a> que me reacendeu o interesse por tecnologia.<br></br>
-            O escola Trybe conta com mais de 1.500 horas de aulas e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.<br></br>
-            Uma profissão que pode melhorar o dia de outras...<br></br>
-            Estou feliz por estar neste caminho.</>}
-            </p>
+{translate ? <>After spending 22 years living in the US, I made the decision to return to Brazil to be closer to my family and explore new professional opportunities.<br></br>
+During this time, I successfully managed the construction of two homes using my own savings while I searched for the right career path to pursue.<br></br>
+In 2022, I discovered <a href="https://www.betrybe.com/" target="_blank" rel="noopener noreferrer">Trybe</a>, a programming school that reignited my passion for technology.<br></br>
+Trybe offers an extensive curriculum with over 1500 synchronous hours covering software development, front-end and back-end technologies, computer science, software engineering, agile methodologies, and essential behavioral skills.<br></br>
+I am excited to be on this new journey, as I firmly believe that a career in technology has the power to positively impact various fields and enhance the lives of others.</> :
+<>Após 22 anos morando nos Estados Unidos, decidi retornar ao Brasil para estar mais próximo da minha família e buscar novas oportunidades profissionais.<br></br>
+Durante esse período, liderei com sucesso a construção de duas residências utilizando minhas próprias economias, enquanto procurava o caminho profissional adequado.<br></br>
+Em 2022, encontrei a escola de programação <a href="https://www.betrybe.com/" target="_blank" rel="noopener noreferrer">Trybe</a>, que reacendeu meu interesse pela tecnologia.<br></br>
+A Trybe oferece um currículo abrangente com mais de 1500 horas de aulas síncronas, abordando desenvolvimento de software, tecnologias front-end e back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais essenciais.<br></br>
+Estou entusiasmado por embarcar nessa nova jornada, pois acredito firmemente que uma carreira na área de tecnologia tem o poder de impactar positivamente diversas profissões.</>}
+</p>
         );
-      // case 2019/2023:
-      //   return (
-      //     <p className="is-size-5"> 
-      //     { translate ? <> 2019 english </> : <> Portuguese </>}
-      //     </p>
-      //   );
+
       default: 
       return (
         <p className="has-text-centered">{ translate ? <> Click on a button for details on where 
@@ -93,12 +86,6 @@ function MyPath() {
           >
             2017/2023
           </button>
-          {/* <button
-          className='button is-italic is-rounded px-4 has-text-weight-bold glowing-border'
-          onClick={() => handleBtnClick(2019/2023)}
-          >
-            2019/2023
-          </button> */}
         </div>
         <div className='message-body'>
           { renderMessage() }
