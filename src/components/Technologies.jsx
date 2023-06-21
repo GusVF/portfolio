@@ -40,6 +40,11 @@ export default function Technologies() {
       />
       <img
         className="badges mb-4 has-background-white"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+        alt="Java-badge"
+      />
+      <img
+        className="badges mb-4 has-background-white"
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
         alt="Docker-badge"
       />
