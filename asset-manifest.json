@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c2674101.css",
-    "main.js": "/portfolio/static/js/main.0dc97feb.js",
+    "main.css": "/portfolio/static/css/main.481ba289.css",
+    "main.js": "/portfolio/static/js/main.23107c2a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/my_photo.jpg": "/portfolio/static/media/my_photo.e2ff957e5a2fe419ce72.jpg",
     "static/media/trybe_futebol_clube.jpg": "/portfolio/static/media/trybe_futebol_clube.30c04f3e1ed60af01e8d.jpg",
     "static/media/Restaurant.jpeg": "/portfolio/static/media/Restaurant.5868aca7c503b97b722b.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.c2674101.css.map": "/portfolio/static/css/main.c2674101.css.map",
-    "main.0dc97feb.js.map": "/portfolio/static/js/main.0dc97feb.js.map",
+    "main.481ba289.css.map": "/portfolio/static/css/main.481ba289.css.map",
+    "main.23107c2a.js.map": "/portfolio/static/js/main.23107c2a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2674101.css",
-    "static/js/main.0dc97feb.js"
+    "static/css/main.481ba289.css",
+    "static/js/main.23107c2a.js"
   ]
 }
