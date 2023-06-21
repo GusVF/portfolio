@@ -18,6 +18,7 @@ body {
   text-decoration: none;
   position: relative;
   cursor: pointer;
+  transition: transform 0.6s;
 }
 
 .under-line::after {
@@ -34,7 +35,12 @@ body {
 }
 
 .under-line:hover::after {
+  transform: scale(1.3);
   transform: scaleX(1);
+}
+
+.under-line:hover {
+  transform: scale(1.1);
 }
 
 .Main {
@@ -68,12 +74,47 @@ body {
   }
 }
 
-.path-header{
+#tech-text {
+  font-size: 30px;
+  text-decoration: underline yellow;
+}
+
+#tech {
+  border-radius: 5px;
+  border: 2px solid whitesmoke;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 200px;
+}
+
+.badge-div {
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+ align-self: center;
+}
+
+.badges {
+  border-radius: 10px;
+  margin-left: 25px;
+  padding: 3px;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.6s;
+}
+
+.badges:hover {
+  transform: scale(1.3);
+  border: 3px solid yellow;
+}
+
+.path-header {
   text-decoration: underline black;
 }
 
 #path {
-  margin-top: 400px;
+  margin-top: 300px;
   padding: 20px;
 }
 
@@ -88,7 +129,6 @@ body {
 }
 
 #projects {
-  /* margin: 20px; */
   margin-left: 60px;
   padding-top: 60px; 
 }
