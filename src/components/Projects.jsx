@@ -13,6 +13,7 @@ import TrybersAndDragonsCard from './TrybersNDragonsCard';
 import TrybeFutebolClube from './TrybeFutebolClube';
 import RestaurantOrders from './RestaurantOrders';
 import TrybeIsNotGoogle from './TING';
+import Portfilio from './Portfolio';
 
 function Project() {
   const { translate } = useContext(TranslateContext);
@@ -31,6 +32,7 @@ function Project() {
       is-flex
       is-flex-wrap-wrap"
       >
+      <Portfilio />
       <SolarSystemCard />
       <TrybeWalletCard />
       <ReactTestCard />
