@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
 import { TranslateContext } from '../context/TranslateContext';
 
-export default function SolarSystemCard() {
+export default function TodoList() {
   const {translate } = useContext(TranslateContext);
 
   const handleClick = () => {
-    window.open("https://github.com/GusVF/luiz-ferreira-project-solar-system","_blank");
+    window.open("https://github.com/GusVF/todo-list","_blank");
   };
 
   return (
@@ -18,15 +18,15 @@ export default function SolarSystemCard() {
           <p className="is-size-4">
           {translate? 'Project' : 'Projeto'}
           </p>
-          <p className="is-size-4">"Solar System"</p>
+          <p className="is-size-4">"Todo List"</p>
           <img className="image"
-          src="https://img.freepik.com/free-vector/solar-system-background_1284-12725.jpg" alt="Solar system" />
+          src="https://img.freepik.com/free-psd/3d-rendering-graphic-design-element_23-2149412223.jpg?size=626&ext=jpg&ga=GA1.2.325944128.1695647392&semt=ais" alt="todo list" />
         </div>
         <footer>
           <p className="card-footer-item">
           <span>
           {translate ? 'View Repository' : 'Veja o Repositorio'}:{" "}
-            <a href="https://github.com/GusVF/luiz-ferreira-project-solar-system"
+            <a href="https://github.com/GusVF/todo-list"
             target="_blank" rel="noopener noreferrer">
               GitHub
             </a>

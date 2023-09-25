@@ -4,7 +4,6 @@ import AllForOne from "./AllForOneCard";
 import DockerTodoCard from "./DockerTodoCard";
 import OneForAll from "./OneForAll";
 import ReactTestCard from "./ReactTestCard";
-import SolarSystemCard from "./SolarSystemCard";
 import TrybeWalletCard from "./TrybeWalletCard";
 import StoreManager from "./StoreManageCard";
 import BlogsAPI from "./BlogsAPICard";
@@ -14,6 +13,7 @@ import TrybeFutebolClube from './TrybeFutebolClube';
 import RestaurantOrders from './RestaurantOrders';
 import TrybeIsNotGoogle from './TING';
 import Portfilio from './Portfolio';
+import TodoList from './TodoList';
 
 function Project() {
   const { translate } = useContext(TranslateContext);
@@ -33,7 +33,7 @@ function Project() {
       is-flex-wrap-wrap"
       >
       <Portfilio />
-      <SolarSystemCard />
+      <TodoList />
       <TrybeWalletCard />
       <ReactTestCard />
       <DockerTodoCard />
