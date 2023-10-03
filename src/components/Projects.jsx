@@ -14,6 +14,7 @@ import RestaurantOrders from './RestaurantOrders';
 import TrybeIsNotGoogle from './TING';
 import Portfilio from './Portfolio';
 import TodoList from './TodoList';
+import GusGPT from './GusGPT';
 
 function Project() {
   const { translate } = useContext(TranslateContext);
@@ -34,6 +35,7 @@ function Project() {
       >
       <Portfilio />
       <TodoList />
+      <GusGPT />
       <TrybeWalletCard />
       <ReactTestCard />
       <DockerTodoCard />
