@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.481ba289.css",
-    "main.js": "/portfolio/static/js/main.299b3d1f.js",
+    "main.js": "/portfolio/static/js/main.316016db.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/my_photo.jpg": "/portfolio/static/media/my_photo.e2ff957e5a2fe419ce72.jpg",
     "static/media/trybe_futebol_clube.jpg": "/portfolio/static/media/trybe_futebol_clube.30c04f3e1ed60af01e8d.jpg",
@@ -9,11 +9,11 @@
     "static/media/portfolio.jpeg": "/portfolio/static/media/portfolio.7b0fb06832a0ff29ac19.jpeg",
     "index.html": "/portfolio/index.html",
     "main.481ba289.css.map": "/portfolio/static/css/main.481ba289.css.map",
-    "main.299b3d1f.js.map": "/portfolio/static/js/main.299b3d1f.js.map",
+    "main.316016db.js.map": "/portfolio/static/js/main.316016db.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.481ba289.css",
-    "static/js/main.299b3d1f.js"
+    "static/js/main.316016db.js"
   ]
 }
