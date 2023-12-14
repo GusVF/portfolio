@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { TranslateContext } from '../context/TranslateContext';
+import prisma from './images/prisma.jpg';
 
 export default function Technologies() {
   const { translate } = useContext(TranslateContext);
@@ -100,8 +101,8 @@ export default function Technologies() {
       />
       <img
         className="badges mb-4 has-background-white"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original-wordmark.svg"
-        alt="Pytest-badge"
+        src={prisma}
+        alt="Prisma-badge"
       />
       <img
         className="badges mb-4 has-background-white"

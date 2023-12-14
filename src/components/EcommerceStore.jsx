@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
 import { TranslateContext } from '../context/TranslateContext';
+import eCommerceFrontend from './images/e-commerce-frontend.jpg';
 
-export default function TrybeSmithCard() {
-  const { translate } = useContext(TranslateContext);
+export default function EcommerceStore() {
+  const {translate } = useContext(TranslateContext);
 
   const handleClick = () => {
-    window.open("https://github.com/GusVF/project-trybesmith", "_blank");
-  }
+    window.open("https://github.com/GusVF/ecommerce-store", "_blank");
+  };
 
   return (
     <div className="under-line"
@@ -18,15 +19,15 @@ export default function TrybeSmithCard() {
           <p className="is-size-4">
           {translate? 'Project' : 'Projeto'}
           </p>
-          <p className="is-size-4">"TrybeSmith"</p>
+          <p className="is-size-4">"e-commerce-Store"</p>
           <img className="image"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStG-gjI-Ep1EuHNyLVzSO9QJUUtpPs8ZmsBg&usqp=CAU" alt="TrybeSmith" />
+          src={eCommerceFrontend} alt="e-commerce-store" />
         </div>
         <footer>
           <p className="card-footer-item">
           <span>
           {translate ? 'View Repository' : 'Veja o Repositorio'}:{" "}
-            <a href="https://github.com/GusVF/project-trybesmith"
+            <a href="https://github.com/GusVF/ecommerce-store"
             target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
@@ -36,5 +37,3 @@ export default function TrybeSmithCard() {
       </div>
   )
 }
-
-

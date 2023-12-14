@@ -7,11 +7,11 @@ import ReactTestCard from "./ReactTestCard";
 import TrybeWalletCard from "./TrybeWalletCard";
 import StoreManager from "./StoreManageCard";
 import BlogsAPI from "./BlogsAPICard";
-import TrybeSmithCard from './TrybeSmithCard';
+import EcommerceAdmin from './EcommerceAdmin';
 import TrybersAndDragonsCard from './TrybersNDragonsCard';
 import TrybeFutebolClube from './TrybeFutebolClube';
 import RestaurantOrders from './RestaurantOrders';
-import TrybeIsNotGoogle from './TING';
+import EcommerceStore from './EcommerceStore';
 import Portfilio from './Portfolio';
 import TodoList from './TodoList';
 import GusGPT from './GusGPT';
@@ -37,17 +37,17 @@ function Project() {
       <TodoList />
       <GusGPT />
       <TrybeWalletCard />
+      <EcommerceAdmin />
+      <EcommerceStore />
       <ReactTestCard />
       <DockerTodoCard />
       <AllForOne />
       <OneForAll />
       <StoreManager />
       <BlogsAPI />
-      <TrybeSmithCard />
       <TrybersAndDragonsCard />
       <TrybeFutebolClube />
       <RestaurantOrders />
-      <TrybeIsNotGoogle />
       </div>
     </div>
   );
